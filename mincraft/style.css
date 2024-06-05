@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.png);
+}
+header {
+    background-color: #2a9d16;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #2a9d16;
+}
+section {
+    padding: 20px;
+    color: #000100;
+    padding: 50px;
+    
+}
+footer {
+    background-color: #2a9d16;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h1{
+   text-transform: uppercase; 
+}
