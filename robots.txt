@@ -1,4 +1,7 @@
 User-agent: *
-Disallow: /admin.html
-Disallow: /download/
-Disallow: /aide-youtube/
+Disallow: /private/
+Disallow: /admin/
+
+# Allow indexing of all other content
+Allow: /
+Allow: /jeux-a-gogo/
