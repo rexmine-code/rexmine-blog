@@ -1,7 +1,8 @@
 User-agent: *
-Disallow: /private/
+Disallow: /download/
 Disallow: /admin/
 
 # Allow indexing of all other content
 Allow: /
 Allow: /jeux-a-gogo/
+Allow /mincraft/
