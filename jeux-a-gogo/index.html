@@ -1,85 +1,128 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>le blog de rexmine</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
+<html>
+ <head>
+  <title>
+   Game
+  </title>
+  <style>
+   body {
             margin: 0;
-            padding: 0;
-            background-color: rgba(34, 124, 193, 0.833);
+            font-family: Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #00ff00;
         }
-        header {
+        .header {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
             background-color: #333;
-            color: white;
-            padding: 10px;
+            color: #00ff00;
             text-align: center;
+            padding: 10px 0;
         }
-        nav {
-            background-color: #444;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
+        .nav a {
+            color: #00ff00;
             text-decoration: none;
-            padding: 10px;
+            padding: 0 15px;
         }
-        nav a:hover {
-            background-color: #555;
-        }
-        section {
+        .content {
+            background-color: #0f0f0f;
             padding: 20px;
+            min-height: 100vh;
         }
-        button{
-            size: 100;
+        .content h1 {
+            color: #00ff00;
+            font-size: 24px;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>game</h1>
-
-
-    </header>
-    <nav>
-        <a href="https://rexmine-code.github.io/rexmine-blog/">Accueil</a>
-
-    </nav>
-    <section>
-        <h1>jeux</h1>
-        <a href="game1.html">
-            <button>rex cliquer</button>
-        </a>
-        <a href="game2.html">
-            <button>cursor</button>
-        </a>
-        <a href="game3.html">
-            <button>3d platformer</button>
-        </a>
-        <a href="game4.html">
-            <button>marmotte go</button>
-        </a>
-        <a href="game5.html">
-            <button>anti zonbie</button>
-        </a>
-        <a href="game6.html">
-            <button>flappy ball</button>
-        </a>
-        <a href="game7.html">
-            <button>geometrie hard</button>
-        </a>
-        <img src="jeux.png" alt="test" width="100" height="100">
-        <!-- <iframe src="https://scratch.mit.edu/projects/1022131460/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 1</iframe>
-        <iframe src="https://scratch.mit.edu/projects/913119602/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 2</iframe>
-        <iframe src="https://scratch.mit.edu/projects/957274649/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 3</iframe>
-        <iframe src="https://scratch.mit.edu/projects/994023048/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 4</iframe>
-        <iframe src="https://scratch.mit.edu/projects/899795418/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 5</iframe>
-        <iframe src="https://scratch.mit.edu/projects/926935828/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>jeux 6</iframe> -->
-    </section>
-</body>
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .tag {
+            background-color: #1a1a1a;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 2px solid #00ff00;
+            font-weight: bold;
+            color: #00ff00;
+            box-shadow: 2px 2px 5px rgba(0, 255, 0, 0.2);
+            transition: transform 0.2s;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .tag img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .tag:hover {
+            transform: scale(1.1);
+        }
+        .image {
+            margin-top: 20px;
+        }
+        .image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid #00ff00;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   game
+  </div>
+  <div class="nav">
+   <a href="#">
+    Accueil
+   </a>
+  </div>
+  <div class="content">
+   <h1>
+    jeux
+   </h1>
+   <div class="tags">
+    <a class="tag" href="game1.html">
+     <img alt="Placeholder image for rex cliquer" height="50" src="https://storage.googleapis.com/a1aa/image/EsiYKEGlkkppGJf2bIO4e7sN4fvMr03e4dS7p6tYqUxeeXR5E.jpg" width="50"/>
+     rex cliquer
+    </a>
+    <a class="tag" href="game2.html">
+     <img alt="Placeholder image for cursor" height="50" src="https://storage.googleapis.com/a1aa/image/EqzY7MukcVrTGxRlb2ylQCiHQOrEyeqtSOgGMlChBm88viyJA.jpg" width="50"/>
+     cursor
+    </a>
+    <a class="tag" href="game3.html">
+     <img alt="Placeholder image for 3d platformer" height="50" src="https://storage.googleapis.com/a1aa/image/pCg25FAXFaY5HxewvbBKwSGE90ePi9Rjjj9KrMthTsYefVUOB.jpg" width="50"/>
+     3d platformer
+    </a>
+    <a class="tag" href="game4.html">
+     <img alt="Placeholder image for marmotte go" height="50" src="https://storage.googleapis.com/a1aa/image/TBSWyjZVS7awA5g55lo7AkxrOWnDw3DnoSrx7CM8QCe9viyJA.jpg" width="50"/>
+     marmotte go
+    </a>
+    <a class="tag" href="game5.html">
+     <img alt="Placeholder image for anti zonbie" height="50" src="https://storage.googleapis.com/a1aa/image/FHlqed5rln1e6kgkLHQwuYPq3fAhQeieKqQjt0nYWjdQfXR5E.jpg" width="50"/>
+     anti zonbie
+    </a>
+    <a class="tag" href="game6.html">
+     <img alt="Placeholder image for flappy ball" height="50" src="https://storage.googleapis.com/a1aa/image/c9r40YMkGmIINF1Zg2WUZGr89CYAv0l3YW4EIWo2JgTfviyJA.jpg" width="50"/>
+     flappy ball
+    </a>
+    <a class="tag" href="game7.html">
+     <img alt="Placeholder image for geometrie hard" height="50" src="https://storage.googleapis.com/a1aa/image/gtxKBkYpOt54DhLhqh7Nb8NRsWp94sfHRemqyG5guOetfVUOB.jpg" width="50"/>
+     geometrie hard
+    </a>
+   </div>
+   <div class="image">
+    <img alt="A colorful abstract image with bright lights and shapes" height="200" src="https://storage.googleapis.com/a1aa/image/1VeAJ84HBIRDACHYHBtJWj1O2yEA485SrbxJ4omwSVHEviyJA.jpg" width="200"/>
+   </div>
+  </div>
+ </body>
 </html>

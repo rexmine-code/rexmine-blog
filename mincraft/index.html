@@ -3,37 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>le blog de rexmine</title>
+    <title>Le Blog de Rexmine</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        div[title] {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        div[title] img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>tuto minecraft</h1>
+        <h1>Tuto Minecraft</h1>
     </header>
     <nav>
         <a href="https://rexmine-code.github.io/rexmine-blog/">Accueil</a>
     </nav>
     <section>
-        <h1>tuto mincraft</h1>
-        <div title="tuto des commande" style="height: 100px; left: 50px; position: absolute; top: px; width: 20%;">
-             <a href="article/les-commande/">
-                <img src="command.png" alt="" width="200" height="150"> 
-               
-                
+        <h1>Tuto Minecraft</h1>
+        <div title="Tuto des commandes" style="width: 20%;">
+            <a href="article/les-commande/">
+                <img src="command.png" alt="">
+                <p>Apprenez les commandes de base de Minecraft</p>
             </a>
         </div>
-        <div title="tuto des commande" style="height: 100px; left: 265px; position: absolute; top: px; width: 20%;">
-            <a href="article/les-commande/">
-               <img src="minecraft-house-ideas-survival-house.webp" alt="" width="200" height="150"> 
-              
-               
-           </a>
-       </div>
-<body>
-<footer>
-        
+        <div title="Tuto maison" style="width: 20%;">
+            <a href="article/tuto-build/index.html">
+                <img src="minecraft-house-ideas-survival-house.webp" alt="">
+                <p>Construisez votre première maison dans Minecraft</p>
+            </a>
+        </div>
+    </section>
+    <footer>
         <a href="TLauncher-2.919-Installer-1.3.3.exe">
-            <button>download mincraft for windows </button>
-</footer>   
+            <button>Télécharger Minecraft pour Windows</button>
+        </a>
+    </footer>
+</body>
 </html>
