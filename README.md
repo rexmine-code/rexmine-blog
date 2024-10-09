@@ -6,8 +6,12 @@ my youtube channel
 my twitch channel
 
 <a>
-    '''
-    update 1.1.8
-    add a new desin to website
-    '''
+   update journal    
 <a>
+
+
+-update 1.1.8 
+    
+    change website style
+    and color palette
+- add fun 🎮 !!!
